@@ -58,7 +58,7 @@ class ProductsAppbar extends StatelessWidget {
                     shopName,
                     style: TextStyle(
                       color: sbbrickRed,
-                      fontSize: 36,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -69,7 +69,7 @@ class ProductsAppbar extends StatelessWidget {
                       shopDescription,
                       style: TextStyle(
                         color: sbbrickRed,
-                        fontSize: 18,
+                        fontSize: 15,
                       ),
                     ),
                   ),
