@@ -5,6 +5,7 @@ import 'package:soko_beauty/widgets/products/cards/highly_rated.dart';
 import 'package:soko_beauty/widgets/products/cards/new_products.dart';
 import 'package:soko_beauty/widgets/products/cards/popular_products.dart';
 import 'package:soko_beauty/widgets/products/common/product_list_title.dart';
+import 'package:soko_beauty/widgets/products/product_add_to_cart.dart';
 
 
 
@@ -24,7 +25,12 @@ class AllProductsView extends StatelessWidget {
               return GestureDetector(
                   onTap: () {
                     //GO TO VIEW SHOP PAGE
-                   
+                   Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ProductAddToCartScreen(
+                                product: products[index])));
+                  
                   },
                   child: NewProductsCard(product: products[index]),
                   );

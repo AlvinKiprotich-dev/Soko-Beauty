@@ -48,6 +48,7 @@ dependencies:
   # firebase_auth: ^4.17.4
   # firebase_core: ^2.25.4
   flutter_svg: 2.0.10+1
+  another_carousel_pro: ^1.0.2
 
 dev_dependencies:
   flutter_test:
